@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>State Reporting Dashboard</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="chat d-flex"><i class="icon-chat"></i><span>chat</span></div>
+			<div class="container">
+				<div class="block-logo">
+					<a href="#"><div class="logo"><img src="img/logo.svg" alt="State Reporting Dashboard" width="118" height="49"></div></a>
+					<h1>Nebraska <span>State Electrical Division</span></h1>
+				</div>
+				<div class="chat-block">
+					<div class="icon-bell"></div>
+				</div>
+				<form>
+					<button type="submit"><svg width="15" height="15">
+						<use xlink:href="img/search.svg#search"></use>
+					</svg></button>
+					<input type="text" name="search" placeholder="Course Lookup"> 
+				</form>
+				<div class="profile">
+					<svg width="15" height="15">
+						<use xlink:href="img/user.svg#user"></use>
+					</svg>
+					Hello Lynne <i class="icon-down-open"></i></div>
+				</div>
+			</header>
+			<main>
+				<div class="review">
+				<div class="tabs-block">
+					<div class="container">
+						<div class="tab">
+							<button class="tablinks active" onclick="openCity(event, 'YourLicense')" id="defaultOpen">
+								<svg width="27" height="27">
+									<use xlink:href="img/license2.svg#license2"></use>
+								</svg>
+							Your License</button>
+						</div>
+						<div id="YourLicense" class="tabcontent">
+							<ul class="list">
+								
+								<li>
+									<span>Choose Your License:</span>
+									<span>
+										<select name="option" id="option">
+											<option value="Select Option1">Choose</option>
+											<option value="Select Option2">Choose1</option>
+											<option value="Select Option3">Choose2</option>
+											<option value="Select Option4">Choose3</option>
+											<option value="Select Option5">Choose4</option>
+										</select>
+										<form action=""><input type="submit" value="confirm" class="bth confirm">
+										</form>
+									</span>
+								</li>
+							</ul>	
+						</div>		
+					</div>
+				</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="container d-flex">
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Privacy Notice</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+					<p class="copy-block">&copy; 2019 StateReporting, LLC. All Rights Reserved</p>
+					<div class="link-bottom d-flex">
+						<a href="#"><img src="img/McAfee.png" alt=""></a>
+						<a href="#"><img src="img/ver.png" alt=""></a>
+						<a href="#"><i class="icon-facebook"></i></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="scripts/jquery-3.3.1.min.js"></script>	
+		<script src="scripts/script.js"></script>
+		<script src="scripts/svgxuse.min.js"></script>
+	</body>
+	</html>		
+
+
+
